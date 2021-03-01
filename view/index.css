@@ -136,3 +136,27 @@ border-radius: 5px;
     top: 60px;
 
 }
+
+/****media queries**********/
+
+@media(max-width: 860px){.head{
+    flex-direction: column;
+    
+}}
+@media(max-width: 860px){.container,.start1,.start3{
+   position: static;
+}}
+@media(max-width: 860px){.title{
+   font-size: 1.5rem;
+}}
+
+
+
+
+@media(max-width: 860px){.foot{
+    flex-direction: column;
+}}
+@media(max-width: 860px){.card1,.card2,.card3{
+    position: static;
+    margin-top: 20px;
+}}
