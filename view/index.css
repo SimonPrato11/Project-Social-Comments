@@ -1,0 +1,138 @@
+/* Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%) */
+
+/* Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%) */
+
+
+body{
+background-color: white;
+font-family: 'Spartan', sans-serif;
+font-size: 15px;
+background: url("../images/bg-pattern-top-desktop.svg");
+
+}
+
+.head{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}
+
+.foot{
+    display: flex;
+    width: 100vw;
+    height: 50vh; 
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.title{
+color:hsl(300, 43%, 22%) ;
+font-size: 2.5rem;
+}
+
+.subtitle{
+    color:hsl(303, 10%, 53%) ;
+   font-weight: 500;
+   
+}
+
+.section1{
+    width: 50vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ padding-left: 15vw;
+}
+.section2{
+    width: 50vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ padding-left: 3vw;
+ 
+}
+.container{
+position: relative;
+bottom: 25px;
+color: hsl(300, 43%, 22%);
+font-weight: 500;
+}
+.start1, .start2, .start3{
+    text-align: left;
+background-color: hsl(300, 24%, 96%);    
+width: 25vw;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 10px;
+margin-top: 15px;
+border-radius: 5px;
+}
+
+.start1{
+    position: relative;
+    right: 50px;
+}
+
+.start3{
+    position: relative;
+    left: 50px;
+}
+/******footer*********************/
+.img{
+    width: 15%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.card1,.card2,.card3{
+    background-color:hsl(300, 43%, 22%);
+    height: 220px;
+    width: 320px;
+    border-radius: 7px;
+    
+}
+.topCard{
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.paragraph{
+    padding: 17px 8px 10px 12px;
+    color: hsl(300, 19%, 79%);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.name{
+    color:hsl(0, 0%, 100%) ;
+}
+
+.job{
+    color:hsl(302, 14%, 54%);
+    font-weight: 500;
+}
+
+.card1{
+    position: relative;
+    
+
+}
+.card2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+.card3{
+    position: relative;
+    left: 60px;
+    top: 60px;
+
+}
